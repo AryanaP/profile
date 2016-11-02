@@ -1,0 +1,76 @@
+body {
+  background: black url(Images/DBbackground2.jpg) no-repeat fixed center;
+  font-family: 'Open Sans', sans-serif;
+  color : #081019;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h4 {
+  font-size: 15px;
+  line-height: 10px;
+}
+
+br {
+  line-height: 5px;
+}
+
+#text-center {
+text-align: center;
+}
+
+.div-color {
+  background-color:  #565c63;
+  border-radius: 8px;
+  box-shadow: 3px 3px 5px #1c1e21;
+  margin: 30px 25%;
+  padding: 20px;
+}
+
+.music-center {
+  text-align: center;
+}
+
+
+.title {
+  font-weight: 700;
+}
+
+.column-size {
+  padding : 20px;
+  margin : auto;
+}
+
+a {
+  text-decoration: none;
+  color :  #081019;
+}
+
+a:hover {
+  text-decoration: none;
+  font-weight: 700;
+  box-shadow:  3px 3px 5px  #081019;
+}
+
+.icones {
+  width: 500px;
+  text-align: center;
+  color:  #081019;
+  font-weight: 700;
+}
+
+#circle {
+  border-radius: 50%;
+  box-shadow: 3px 3px 5px #1c1e21;
+}
+
+.button {
+  color: #081019;
+  padding : 5px;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-style: italic;
+}
