@@ -11,7 +11,7 @@ h2 {
 
 h4 {
   font-size: 15px;
-  line-height: 10px;
+  line-height: 20px;
 }
 
 br {
@@ -65,6 +65,7 @@ a:hover {
 #circle {
   border-radius: 50%;
   box-shadow: 3px 3px 5px #1c1e21;
+  margin: auto;
 }
 
 .button {
@@ -73,4 +74,37 @@ a:hover {
   border-radius: 10px;
   margin-top: 10px;
   font-style: italic;
+}
+
+#sidebar {
+  position: fixed;
+  width: 150px;
+  left: 0;
+  top: 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#page-content {
+  margin-left: 300px;
+}
+
+#sidebar img {
+  border-radius: 20%;
+  box-shadow: 3px 3px 5px #1c1e21;
+  float: left;
+}
+
+#sidebar h3 {
+  text-align: center;
+}
+
+#sidebar a:hover {
+  color : white;
+  box-shadow: none
+}
+
+tr {
+  margin-top : 10px ;
+   margin-bottom : 10px ;
 }
